@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>361</width>
+    <height>242</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog{
+	background-color:#1f232a;
+}
+QPushButton:hover{
+	background-color:#015371;
+	border-radius: 10px;
+	
+}
+QPushButton:pressed
+{
+    /*左内边距为3像素，让按下时字向右移动3像素*/  
+    padding-left:3px;
+    /*上内边距为3像素，让按下时字向下移动3像素*/  
+    padding-top:3px;
+}
+
+QPushButton
+{
+	color:#fff;
+	background-color:#1f232a;
+	border:1px solid;
+     border-radius: 10px;
+	border-color:#fff;
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="message">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel
+{
+	color:#fff;
+	background-color:transparent;
+	border:0px solid;
+     border-radius: 10px;
+	border-color:#fff;
+}</string>
+     </property>
+     <property name="text">
+      <string>文件目录不能为空!</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignmentFlag::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../assets/icons/icon.qrc"/>
+ </resources>
+ <connections/>
+</ui>

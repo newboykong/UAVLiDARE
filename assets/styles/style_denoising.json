@@ -1,0 +1,22 @@
+{
+  "QMainWindow": [
+    {
+      "frameless": true,
+      "sizeGrip": "size_grip",
+      "shadow": [
+        {
+          "color": "#fff",
+          "blurRadius": 20,
+          "xOffset": 0,
+          "yOffset": 0,
+        }
+      ],
+      "navigation": [
+        {
+          "moveWindow": "frame",
+          "tittleBar": "frame"
+        }
+      ]
+    }
+  ]
+}

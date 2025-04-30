@@ -1,0 +1,22 @@
+{
+  "0": "gray",
+  "2": "brown",
+  "3": "lightgreen",
+  "4": "green",
+  "5": "darkgreen",
+  "6": "red",
+  "7": "purple",
+  "8": "yellow",
+  "9": "blue",
+  "10": "darkgray",
+  "12": "orange",
+  "13": "cyan",
+  "14": "deepskyblue",
+  "15": "darkred",
+  "16": "saddlebrown",
+  "17": "magenta",
+  "18": "olive",
+  "19": "navy",
+  "20": "lightcoral",
+  "21-255": "gray"
+}
